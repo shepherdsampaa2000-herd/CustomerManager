@@ -1,3 +1,4 @@
+//  This class contains everything we want the user to input//
 public class Customer {
     private final String name, province;
 
