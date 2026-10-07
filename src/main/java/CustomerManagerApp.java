@@ -61,7 +61,7 @@ public class CustomerManagerApp extends Application {
             provinceBox.setValue(null);
             nameField.requestFocus();
         });
-
+        //this is the deletion part when the button is clicked//
         deleteButton.setOnAction(event -> {
             Customer selected = table.getSelectionModel().getSelectedItem();
             if (selected == null) {
